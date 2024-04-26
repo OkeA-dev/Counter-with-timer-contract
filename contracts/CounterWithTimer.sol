@@ -37,7 +37,7 @@ contract CounterWithTimer {
 
     function getTimeRemaining() public view returns (uint256) {
         if(block.timestamp >= nextAuctionTime) {
-            return 0
+            return 0;
         }
         return nextAuctionTime - block.timestamp;
     }
