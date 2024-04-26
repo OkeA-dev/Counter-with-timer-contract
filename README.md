@@ -13,7 +13,7 @@ The Counter with Timer Contract is a simple Solidity smart contract that allows 
 ## Prerequisites
 
 - Solidity compiler (version 0.8.x or later)
-- An Ethereum development environment (e.g., Remix, Hardhat)
+- An Ethereum development environment (e.g., Remix, Truffle, Hardhat)
 
 ## Contract Deployment
 

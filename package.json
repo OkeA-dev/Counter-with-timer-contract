@@ -1,0 +1,16 @@
+{
+  "name": "counter-with-timer-contract",
+  "version": "1.0.0",
+  "description": "The Counter with Timer Contract is a simple Solidity smart contract that allows you to increment or decrement a counter value and set a timer for the next available action. This contract demonstrates the use of state variables, functions, and time-based operations in Solidity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3"
+  }
+}
