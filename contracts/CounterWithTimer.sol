@@ -2,8 +2,8 @@
 pragma solidity ^0.8.24;
 
 contract CounterWithTimer {
-    uint256 private count;
-    uint256 private nextAuctionTime;
+    uint256 public count;
+    uint256 public nextAuctionTime;
 
     event CounterIncremented(uint256 count);
     event CounterDecremented(uint256 count);
